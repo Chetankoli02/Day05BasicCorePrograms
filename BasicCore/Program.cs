@@ -4,13 +4,8 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        FlipCoin flipCoin = new FlipCoin();
-        flipCoin.Main(args);
 
-        LeapYear leapYear = new LeapYear();
-        leapYear.Main(args);
-
-        Powerof2 powerof2 = new Powerof2();
-        powerof2.Main(args);
+        HarmonicNumber harmonicNumber = new HarmonicNumber();
+        harmonicNumber.FindHarmonicNumber();
     }
 }
