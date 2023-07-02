@@ -4,8 +4,9 @@ internal class Program
 {
     private static void Main(string[] args)
     {
+       
 
-        HarmonicNumber harmonicNumber = new HarmonicNumber();
-        harmonicNumber.FindHarmonicNumber();
+        Factors factors = new Factors();
+        factors.CalculateFactor();
     }
 }
