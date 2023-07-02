@@ -9,5 +9,8 @@ internal class Program
 
         LeapYear leapYear = new LeapYear();
         leapYear.Main(args);
+
+        Powerof2 powerof2 = new Powerof2();
+        powerof2.Main(args);
     }
 }
