@@ -4,9 +4,10 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-       
+        
 
-        Factors factors = new Factors();
-        factors.CalculateFactor();
+        QuotientRemainder quotientRemainder = new QuotientRemainder();
+        quotientRemainder.Main(args);
+        
     }
 }
