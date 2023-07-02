@@ -6,5 +6,8 @@ internal class Program
     {
         FlipCoin flipCoin = new FlipCoin();
         flipCoin.Main(args);
+
+        LeapYear leapYear = new LeapYear();
+        leapYear.Main(args);
     }
 }
